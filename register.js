@@ -254,4 +254,5 @@ exports.register = async (req, res) => {
         console.log(err.stack);
         return res.status(500).send({ status: false, message: err.message, data: req.body });
       });
-  }
+    }
+}
